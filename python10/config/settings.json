@@ -1,0 +1,32 @@
+{
+  "log_dir": "logs",
+  "image_dir": "images",
+  "storage_dir": "storage",
+  "db_path": "storage/credit_risk.db",
+  "model_params": {
+    "n_estimators": 100,
+    "max_depth": 8,
+    "min_samples_split": 5,
+    "random_state": 41,
+    "test_size": 0.2,
+    "n_samples": 700
+  },
+  "display": {
+    "font_size": 6,
+    "title_font_size": 6,
+    "chart_theme": "dark"
+  },
+  "analysis": {
+    "combine_history": false,
+    "selected_labels": [
+      "income",
+      "debt_ratio",
+      "credit_history",
+      "employment",
+      "age",
+      "loan_amount",
+      "num_accounts",
+      "payment_delay"
+    ]
+  }
+}
